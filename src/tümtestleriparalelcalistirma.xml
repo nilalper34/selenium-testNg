@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="tum testleri calistirma" verbose="3" parallel="classes" thread-count="3">
+    <!-- consolda 3 tane yazı olacak paraleller clas seviyesinden calisacak ve aynı anda 3 test calısacak  -->
+
+    <test name="regression">
+        <packages>
+            <package name="tests.*"></package>
+        </packages>
+    </test>
+</suite>
